@@ -2,7 +2,7 @@ name: steam_promo
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # roda a cada 30 minutos
+    - cron: "0 10 * * *"   # roda todos os dias as 10AM
   workflow_dispatch:
 
 jobs:
